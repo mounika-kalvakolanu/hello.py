@@ -34,7 +34,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Configure Google Gemini
-genai.configure(api_key="AIzaSyDOqZVVnc-IPirAsofSxidr46jAsOoYqZk")  # Replace with your Gemini API key
+genai.configure(api_key="AIzaSyCzeEqpqypOCj_MdoG0za4Fh9xbpsXN25U")  # Replace with your Gemini API key
 gemini = genai.GenerativeModel('gemini-1.5-flash')
 
 # Initialize models
